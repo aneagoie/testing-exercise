@@ -5,7 +5,7 @@ dbMock = [
   'cheesepuff.com',
   'disney.com',
   'dogpictures.com',
-]
+] 
 
 it('silly test', () => {
   expect('hello').toBe('hello');

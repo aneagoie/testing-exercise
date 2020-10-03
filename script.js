@@ -1,4 +1,4 @@
-const googleDatabse = [
+const googleDatabse =  [
   'cats.com',
   'souprecipes.com',
   'flowers.com',
@@ -17,3 +17,4 @@ const googleSearch = (searchInput, db) => {
 console.log(googleSearch('com', googleDatabse));
 
 module.exports = googleSearch;
+

@@ -1,5 +1,5 @@
 # testing-exercise
-Udemy tutorial - testing with Jest
+testing with Jest
 
 To start:
 1. Clone repo
