@@ -7,6 +7,7 @@ const googleDatabse =  [
   'myfavouritecats.com'
 ]
 
+
 const googleSearch = (searchInput, db) => {
   const matches = db.filter(website => {
     return website.includes(searchInput);
