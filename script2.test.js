@@ -1,7 +1,6 @@
 const swapi = require('./script2');
 const fetch = require('node-fetch');
 
-
 it('calls swapi to get people', () => {
   //expect.assertions(number) verifies that a
   // certain number of assertions are called during a
