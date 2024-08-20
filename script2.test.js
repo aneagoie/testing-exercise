@@ -1,4 +1,4 @@
-const swapi = require('./script2');
+const swapi = require('./script2'); 
 // const fetch = require('node-fetch'); you no longer need this package if you have the latest version of Node!
 
 it('calls swapi to get people', () => {

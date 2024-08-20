@@ -1,4 +1,4 @@
-// Now a little bit more realistic:
+// Now a little bit more realistic: 
 // const fetch = require('node-fetch'); you no longer need this package if you have the latest version of Node!
 
 const getPeoplePromise = (fetch) => {

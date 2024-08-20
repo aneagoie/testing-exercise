@@ -1,4 +1,4 @@
-const googleSearch = require('./script');
+const googleSearch = require('./script'); 
 
 dbMock = [
   'dogs.com',
