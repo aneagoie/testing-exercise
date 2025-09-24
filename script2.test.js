@@ -1,6 +1,7 @@
 const swapi = require('./script2'); 
 // const fetch = require('node-fetch'); you no longer need this package if you have the latest version of Node!
 
+
 it('calls swapi to get people', () => {
   //expect.assertions(number) verifies that a
   // certain number of assertions are called during a
@@ -32,7 +33,9 @@ it('getPeople returns count and results', () => {
   expect.assertions(4)
   return swapi.getPeoplePromise(mockFetch).then(data => {
     expect(mockFetch.mock.calls.length).toBe(1);
-    expect(mockFetch).toBeCalledWith('http://swapi.py4e.com/api/people');
+    // HEADS UP! JEST v30 introduced a naming update:
+    // toBeCalledWithto() is now toHaveBeenCalledWith()
+    expect(mockFetch).toHaveBeenCalledWith('http://swapi.py4e.com/api/people');
     expect(data.count).toEqual(87);
     expect(data.results.length).toBeGreaterThan(5);
   })
